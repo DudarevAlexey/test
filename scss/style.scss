@@ -126,7 +126,7 @@ header {
     position: relative;
     height: 100vh;
     text-align: center;
-    .wrapper {
+    .general-carousel {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -161,6 +161,121 @@ header {
         &:hover {
             background: #959595;
             color: #fff;
+        }
+    }
+}
+
+.squares-frame {
+    .container {
+        display: flex;
+        align-items: flex-start;
+        flex-flow: column wrap;
+        max-height: 885px
+    }
+    a {
+        position: relative;
+        width: 25%;
+        height: 295px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: #000;
+            opacity: 0;
+            transition: all .2s linear 0s;
+        }
+        &:hover {
+            &:before {
+                opacity: .3;
+            }
+        }
+        span {
+            display: block;
+        }
+        .header {
+            font: 24px 'Bold';
+        }
+        .underheader {
+            font: 14px 'Bold';
+        }
+    }
+    .big {
+        height: 590px;
+        background: #d7d7d7;
+        .title {
+            max-width: 185px;
+        }
+        .header {
+            line-height: 1.4;
+            letter-spacing: 1px;
+            margin-bottom: 7px;
+            word-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .underheader {
+            font: 18px 'Italic-g';
+            text-transform: uppercase;
+        }
+    }
+    .bird {
+        background: #bbb;
+        img {
+            display: block;
+            margin: 0 auto 25px;
+        }
+        .header {
+            font: 14px 'Italic-g';
+            line-height: 1.1;
+            letter-spacing: 0.7px;
+            max-width: 210px;
+            margin-bottom: 14px;
+        }
+        .underheader {
+            font: 14px 'Bold';
+            letter-spacing: 0.5px;
+        }
+    }
+    .empty {
+        background: #dbdbdb;
+    }
+    .arrow {
+        background: #606060;
+        img {
+            display: block;
+            margin: 0 auto 7px;
+        }
+        .header {
+            line-height: 1.4;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+            word-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .underheader {
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+    }
+    .price {
+        background: #cacaca;
+        .header {
+            line-height: 1.4;
+            letter-spacing: 1px;
+            margin-bottom: 3px;
+            word-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .underheader {
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
         }
     }
 }

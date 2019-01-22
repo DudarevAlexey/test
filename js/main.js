@@ -2,6 +2,31 @@
 
         //Owl-carousel
 
+        $(".general-carousel").owlCarousel({
+            loop: true,
+            dots: false,
+            nav: false,
+            animateOut: 'fadeOut',
+            items: 1,
+            mouseDrag: true,
+            touchDrag: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        });
+
+        $(".main").owlCarousel({
+            loop: true,
+            dots: true,
+            nav: true,
+            animateOut: 'fadeOut',
+            items: 1,
+            mouseDrag: true,
+            touchDrag: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true
+        });
         $(".main").owlCarousel({
             loop: true,
             dots: true,
