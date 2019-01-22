@@ -68,6 +68,7 @@ header {
             color: #303030;
             letter-spacing: 0.5px;
             transition: all .2s linear 0s;
+            margin-right: 59.5px;
             svg {
                 path {
                     transition: all .2s linear 0s;
@@ -82,6 +83,7 @@ header {
                 }
             }
             &:nth-child(3) {
+                margin: 0;
                 &:hover {
                     svg {
                         path {
@@ -90,6 +92,14 @@ header {
                     }
                 }
             }
+        }
+    }
+    .user,
+    .basket {
+        display: flex;
+        align-items: center;
+        span {
+            margin-left: 8px;
         }
     }
     .search {
@@ -113,12 +123,14 @@ header {
 }
 
 .general-frame {
+    position: relative;
     height: 100vh;
     text-align: center;
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     h1 {
         font: 72px 'Regular';

@@ -9,7 +9,7 @@ var gulp         = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     postcss      = require('gulp-postcss'),
     mqpacker     = require('css-mqpacker'),
-    cssnano      = require('gulp-cssnano'),
+    // cssnano      = require('gulp-cssnano'),
     csscomb      = require('gulp-csscomb');
 
 
@@ -26,9 +26,9 @@ gulp.task('sass', function() {
     ],
         { cascade: true }))
     .pipe(csscomb())
-    .pipe(cssnano())
+    // .pipe(cssnano())
     .pipe(postcss([
-        mqpacker({sort: true})
+        // mqpacker({sort: true})
     ]))
     .pipe(gulp.dest('css'))
     .pipe(browserSync.reload({stream: true}));
