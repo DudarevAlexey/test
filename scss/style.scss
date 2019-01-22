@@ -166,6 +166,7 @@ header {
 }
 
 .squares-frame {
+    padding-bottom: 136px;
     .container {
         display: flex;
         align-items: flex-start;
@@ -204,7 +205,7 @@ header {
             font: 24px 'Bold';
         }
         .underheader {
-            font: 14px 'Bold';
+            font: 18px 'Italic-g';
         }
     }
     .big {
@@ -277,6 +278,44 @@ header {
             letter-spacing: 0.8px;
             text-transform: uppercase;
         }
+    }
+}
+
+.signup-frame {
+    text-align: center;
+    h2 {
+        font: 36px 'Bold';
+        letter-spacing: 1.5px;
+        color: #303030;
+        margin-bottom: 9px;
+        text-transform: uppercase;
+        word-spacing: 1px;
+    }
+    h3 {
+        font: 18px 'Italic-g';
+        color: #606060;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        word-spacing: 0.3px;
+    }
+    form {
+        input {
+            display: inline-block;
+            font: 14px 'Italic';
+            border: 1px solid #959595;
+            line-height: 54px;
+            width: 475px;
+            letter-spacing: 1px;
+            word-spacing: -2.5px;
+            padding: 0 10px;
+        }
+    }
+    button {
+        display: inline-block;
+        width: 96px;
+        line-height: 56px;
+        background: #f68236;
+        font: 14px 'Regular';
     }
 }
 // body {
