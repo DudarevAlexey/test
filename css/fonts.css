@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/LatoRegular.eot');
+    src: url('../fonts/LatoRegular.eot') format('embedded-opentype'),
+         url('../fonts/LatoRegular.woff2') format('woff2'),
+         url('../fonts/LatoRegular.woff') format('woff'),
+         url('../fonts/LatoRegular.ttf') format('truetype'),
+         url('../fonts/LatoRegular.svg#LatoRegular') format('svg');
+}
+@font-face {
+    font-family: 'Italic';
+    src: url('../fonts/LatoItalic.eot');
+    src: url('../fonts/LatoItalic.eot') format('embedded-opentype'),
+         url('../fonts/LatoItalic.woff2') format('woff2'),
+         url('../fonts/LatoItalic.woff') format('woff'),
+         url('../fonts/LatoItalic.ttf') format('truetype'),
+         url('../fonts/LatoItalic.svg#LatoItalic') format('svg');
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/LatoBold.eot');
+    src: url('../fonts/LatoBold.eot') format('embedded-opentype'),
+         url('../fonts/LatoBold.woff2') format('woff2'),
+         url('../fonts/LatoBold.woff') format('woff'),
+         url('../fonts/LatoBold.ttf') format('truetype'),
+         url('../fonts/LatoBold.svg#LatoBold') format('svg');
+}
+@font-face {
+    font-family: 'Italic-g';
+    src: url('../fonts/georgiai.eot');
+    src: url('../fonts/georgiai.eot') format('embedded-opentype'),
+         url('../fonts/georgiai.woff2') format('woff2'),
+         url('../fonts/georgiai.woff') format('woff'),
+         url('../fonts/georgiai.ttf') format('truetype'),
+         url('../fonts/georgiai.svg#georgiai') format('svg');
+}

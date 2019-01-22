@@ -1,0 +1,480 @@
+@media(min-width: 1095px) and (max-width: 2500px){
+    .hero-wrapper .hero-item a img{
+        transition: transform 0.3s;    
+    }
+    .hero-wrapper .hero-item a:hover img{
+        transform: scale(1.05);
+        transition: transform 0.3s;
+    }
+    #artem .slide2 .item-image--first .item-image--text {
+        font-size: 0;
+        display: block !important;
+        top: 331px;
+        left: 741px;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media(min-width: 320px) and (max-width: 1095px){
+  .main-bottom{
+    display: block;
+  }
+  .developer .developer-text a:hover:after {
+      background-position: 0 -98px;
+  }
+  .owl-stage .owl-item:nth-child(1) {
+      opacity: 1;
+  }
+  .main-page--innerDesktop,
+  .developer,
+  .sushi-logo--desktop{
+      display: none !important;
+  }
+  section.person-list {
+      display: none;
+  }
+  div#mobileVerstka {
+      position: relative;
+  }
+  body{
+    width: 1095px;
+    background-image: url(../images/adaptive/main-image.jpg);
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  img{
+    width: auto;
+  }
+  .owl-item {
+    opacity: 0;
+  }
+  .owl-item.active {
+    opacity: 1;
+  }
+  @-ms-viewport {
+    width: 1095px;
+  }
+  @-o-viewport {
+    width: 1095px;
+  }
+  @viewport {
+    width: 1095px;
+  }
+  .owl-theme .owl-nav .owl-next {
+    background-image: url(../images/adaptive/arrow.png)!important;
+    background-position: -71px 0 !important;
+    right: -30px;
+  }
+  .owl-theme .owl-nav .owl-prev {
+    background-image: url(../images/adaptive/arrow.png)!important;
+    background-position: 0 -0!important;
+    left: -30px !important;
+    margin-top: 0 !important;
+  }
+
+  .owl-theme .owl-nav .owl-next,
+  .owl-theme .owl-nav .owl-prev {
+      position: absolute !important;
+      top: 0;
+      width: 65px!important;
+      height: 140px!important;
+      padding: 0!important;
+      background-image: url(../images/adaptive/arrow.png)!important;
+      margin: 0;
+      z-index: 1488228322;
+  }
+  .owl-theme .owl-nav {
+    position: absolute;
+    flex-direction: row;
+    transform: translateX(0);
+    width: 100%;
+    justify-content: space-between;
+    top: 200px;
+    right: 0;
+    left: 0;
+  }
+  .owl-theme .owl-nav .owl-next:hover {
+    transform: translate(0,0);
+    background-position: -76px -148px !important;
+  }
+  .owl-theme .owl-nav .owl-prev:hover {
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    height: 140px!important;
+    background-position: -153px -148px!important;
+  }
+  body.active .person-list {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(-25px);
+  }
+  body.active .developer-mobile{
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: -100;
+  }
+  .person-list {
+    opacity: 0;
+    transform: translateX(0);
+    transform: translateY(300px);
+  }
+  .main-bottom {
+    position: absolute;
+    right: 20px;
+    bottom: -100px;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .person-list {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    position: static;
+  }
+  .person-list .person-list--item:not(:last-child){
+    margin-right: 0;
+  }
+  .heroes-slider .slide1 .left {
+    position: relative;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .heroes-slider .slide1 .right {
+    font-size: 56px;
+    display: block;
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 51px;
+    margin-top: 70px;
+  }
+  .heroes-slider .slide1 .left:after{
+    display: none;
+  }
+  .heroes-slider .slide1 .left img {
+      padding-bottom: 0;
+      width: 515px;
+  }
+  .heroes-slider .owl-item .slide1{
+    display: block;
+  }
+  main {
+    padding-top: 110px;
+  }
+  .main-page {
+    position: static;
+    text-align: center;
+  }
+  .heroes-slider {
+    top: 340px;
+  }
+  .googleplay{
+    margin-left: 120px;
+    z-index: 10000000;
+  }
+  .sushi-logo {
+    position: absolute;
+    top: 73px;
+    left: 42px;
+    display: inline-block;
+    width: auto;
+    transition: all .1s linear;
+    transform: translateY(0);
+    text-align: center;
+    right: 0;
+    z-index: -1;
+  }
+  body.active .sushi-logo:not(.sushi-logo--desktop){
+    position: absolute;
+    transition: all .2s linear;
+    top: 73px;
+  }
+  .main-page--inner{
+    position: relative;
+  }
+  .hero-item a:after,
+  .hero-item a:before{
+    display: none;
+  }
+  .hero-wrapper .hero-item{
+    position: absolute;
+  }
+  .hero-wrapper .hero-item--alena {
+    top: 624px;
+    left: 66px;
+    opacity: 0;
+  }
+  .hero-wrapper .hero-item--artem {
+    top: 615px;
+    left: 537px;
+    opacity: 0;
+  }
+  .hero-wrapper .hero-item--nastya {
+    top: 1131px;
+    left: 103px;
+    opacity: 0;
+  }
+  .hero-wrapper .hero-item--katya {
+    top: 1114px;
+    left: 532px;
+    opacity: 0;
+  }
+  .owl-carousel .owl-stage-outer {
+    margin: -300px -51px -50px -100px;
+    padding: 200px 100px 50px;
+  }
+  .heroes-slider .last-slide {
+    width: 955px;
+    height: 873px;
+    background-image: url(../images/adaptive/lastSlide.png);
+  }
+  .appmarket {
+    float: none;
+    max-width: 100%;
+    padding: 135px 115px 100px 85px;
+  }
+  .appmarket .appmarket--title {
+    font-size: 80px;
+  }
+  .appmarket .appmarket--text {
+    font-size: 46px;
+    line-height: 50px;
+    margin-top: 40px;
+    padding-left: 11px;
+  }
+  .appmarket a {
+    display: inline-block;
+    float: right;
+    margin-top: 45px;
+  }
+  .slide1 {
+    padding-top: 20px;
+  }
+  #alena  .slide2 .item-image--text1{
+    top: -50px;
+    left: -40px;
+    text-align: left;
+    font-size: 47px;
+    line-height: 47px;
+    transform: rotate(-3deg);
+  }
+  #alena .slide2 .item-image--text2{
+    font-size: 48px;
+    line-height: 47px;
+    top: 155px;
+    right: 55px;
+    transform: rotate(-4deg);
+    text-align: left;
+  }
+  #alena .slide3 .item-image--text1{
+    bottom: 270px;
+    text-align: left;
+    font-size: 51px;
+    line-height: 51px;
+    left: 80px;
+    transform: rotate(0.5deg);
+  }
+  #alena .slide3 .item-image--text2{
+    text-align: right;
+    font-size: 47px;
+    line-height: 47px;
+    top: 50px;
+    right: -25px;
+  }
+  #alena .item.slide2 {
+    margin-right: -60px;
+  }
+  #alena .slide4 {
+      margin-top: -100px;
+      margin-left: -80px;
+  }
+  #alena .slide4 .item-image--text{
+    font-size: 45px;
+    top: 513px;
+    line-height: 45px;
+    transform: rotate(8deg);
+    right: -25px;
+  }
+  #alena .slide5 {
+    margin-top: 100px;
+  }
+  #alena .slide5 .item-image--text1{
+    font-size: 45px;
+    top: -60px;
+    text-align: left;
+    line-height: 44px;
+    left: -45px;
+  }
+  #alena .slide5 .item-image--text2{
+    font-size: 47px;
+    line-height: 47px;
+    right: -15px;
+    bottom: 207px;
+    transform: rotate(4deg);
+  }
+  #artem.owl-theme .owl-nav{
+    top: 330px;
+  }
+  #artem .slide3 {
+    margin-top: 60px;
+  }
+  #artem .slide4 {
+    margin-right: -100px;
+  }
+  #artem .slide5 {
+    margin-top: -50px;
+  }
+  #artem .slide3 .item-image--text1{
+    top: 17px;
+    font-size: 47px;
+    line-height: 47px;
+    right: -16px;
+    transform: rotate(-2deg);
+  }
+  #artem .slide3 .item-image--text2{
+    font-size: 41px;
+    line-height: 41px;
+    top: 275px;
+    text-align: left;
+    transform: rotate(-5deg);
+    left: 44px;
+  }
+  #artem .slide3 .item-image--text3{
+    font-size: 49px;
+    line-height: 49px;
+    bottom: 243px;
+    right: 75px;
+    transform: rotate(-5deg);
+  }
+  #artem .slide4 .item-image--text1{
+    font-size: 53px;
+    line-height: 53px;
+    top: 125px;
+    right: 60px;
+    text-align: left;
+    transform: rotate(-6deg);
+  }
+  #artem .slide4 .item-image--text2{
+    font-size: 75px;
+    line-height: 75px;
+    bottom: 0;
+    right: 85px;
+    transform: rotate(-6deg);
+  }
+  #artem .slide5 .item-image--text1{
+    bottom: -60px;
+    text-align: left;
+    font-size: 48px;
+    line-height: 48px;
+    transform: rotate(6deg);
+    left: 20px;
+  }
+  #artem .slide5 .item-image--text2{
+    right: 0;
+    bottom: -108px;
+    font-size: 48px;
+    line-height: 46px;
+    transform: rotate(1deg);
+  }
+  #nastya .slide4 {
+      margin-left: 0;
+  }
+  #katya .slide4{
+    margin-top: 50px;
+  }
+  .person-list .person-list--item{
+    background-image: none;
+    width: auto;
+    height: auto;
+  }
+  .notMargin{
+    margin-right: 0 !important;
+  }
+  .person-list {
+    display: flex;
+    justify-content: space-between;
+    width: 455px;
+  }
+  .developer-mobile{
+      display: inline-block!important;
+      position: static !important;
+      transform: translate(495px,80px);
+      width: 230px;
+      opacity: 1;
+      transition: all 0.3s;
+      z-index: 1;
+  }
+  .developer .developer-text a {
+      font-size: 32px;
+  }
+  .developer .developer-text a:after {
+      top: -45px;
+      left: -235px;
+      width: 229px;
+      height: 85px;
+      background-image: url(../images/adaptive/fermaBig.png);
+  }
+}
+
+@media(min-width: 1367px) and (max-width: 1500px){
+  .owl-stage-outer {
+    transform: scale(.9, .9);
+  }
+  @-ms-viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+  @-o-viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+  @viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+}
+
+@media(min-width: 1096px) and (max-width: 1199px){
+  .owl-stage-outer {
+    transform: scale(.70) !important;
+  }
+  .main-page--inner.main-page--innerDesktop {
+    transform: scale(0.8);
+  }
+  @-ms-viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+  @-o-viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+  @viewport {
+    width: 1500px;
+    zoom: 0.8;
+  }
+}
+
+@media(min-width: 1200px) and (max-width: 1366px){
+  .owl-stage-outer {
+    transform: scale(.75) !important;
+  }
+  .main-page--inner.main-page--innerDesktop {
+    transform: scale(0.8);
+  }
+  @-ms-viewport {
+    width: 1500px;
+    zoom: 0.7;
+  }
+  @-o-viewport {
+    width: 1500px;
+    zoom: 0.7;
+  }
+  @viewport {
+    width: 1500px;
+    zoom: 0.7;
+  }
+}

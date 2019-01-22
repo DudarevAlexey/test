@@ -1,0 +1,35 @@
+{
+  "name": "agentura",
+  "version": "1.0.0",
+  "description": "agentura Nikita",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp w"
+  },
+  "keywords": [
+    "gulp_test"
+  ],
+  "author": "FERMA",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.51",
+    "browser-sync": "^2.23.5",
+    "css-mqpacker": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-babel": "^8.0.0-beta.2",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-less": "^3.4.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^5.0.0"
+  },
+  "dependencies": {
+    "node-minify": "^3.1.0"
+  }
+}
