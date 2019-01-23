@@ -283,6 +283,7 @@ header {
 
 .signup-frame {
     text-align: center;
+    padding-bottom: 132px;
     h2 {
         font: 36px 'Bold';
         letter-spacing: 1.5px;
@@ -296,7 +297,7 @@ header {
         color: #606060;
         margin-bottom: 54px;
         letter-spacing: 1px;
-        word-spacing: .5px;
+        word-spacing: -.7px;
     }
     form {
         input {
@@ -323,5 +324,45 @@ header {
         &:hover {
             opacity: .7;
         }
+    }
+}
+
+.inspiration-frame {
+    .inspiration-carousel {
+        .owl-nav {
+            .owl-prev,
+            .owl-next {
+                position: absolute;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 39px;
+                background: #e4e4e4;
+                transition: all .2s linear 0s;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    background:url("../images/arrow2.png") center no-repeat;
+                    width: 17px;
+                    height: 33px;
+                }
+                &:hover {
+                    background: #272121;
+                }
+            }
+            .owl-prev {
+                left: 0;
+                &:before {
+                    transform: translate(-50%, -50%) rotate(-180deg);
+                }
+            }
+        }
+    }
+    .item {
+        background: #bbb;
+        height: 118px;
     }
 }
