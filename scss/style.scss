@@ -34,9 +34,12 @@ header {
         height: 115px;
         border-bottom: 1px solid #e5e5e5;
     }
-    img {
+    .logo-main {
         display: block;
         margin-right: 57px;
+    }
+    .logo-mobile {
+        display: none;
     }
     ul {
         display: flex;
@@ -101,6 +104,11 @@ header {
         span {
             margin-left: 8px;
         }
+        svg {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
     }
     .search {
         display: inline-block;
@@ -118,6 +126,85 @@ header {
         }
         &:hover {
             background: #959595;
+        }
+    }
+    .mobile-button {
+        display: none;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        background: #8d8d8d;
+        cursor: pointer;
+        transition: all .2s linear 0s;
+        span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 32px;
+            height: 4px;
+            background: #fff;
+            transition: all .2s linear 0s;
+            &:after,
+            &:before {
+                content: "";
+                position: absolute;
+                bottom: -10px;
+                width: 32px;
+                height: 4px;
+                background: #fff;
+                transition: all .2s linear 0s;
+            }
+            &:after {
+                top: -10px;
+            }
+        }
+        &:hover {
+            background: #434141;
+        }
+    }
+    .mobile-button.is-active {
+        z-index: 10;
+        span {
+            background: transparent;
+            &:after {
+                transform: rotate(-45deg);
+                top: 0;
+            }
+            &:before {
+                bottom: 0;
+                transform: rotate(45deg);
+            }
+        }
+    }
+    @media (max-width: 480px) {
+        .logo-main {
+            display: none;
+        }
+        .logo-mobile {
+            display: block;
+        }
+        nav {
+            display: none;
+        }
+        .mobile-button {
+            display: block;
+        }
+        .right {
+            .user,
+            .search {
+                display: none;
+            }
+            .basket {
+                svg {
+                    &:nth-child(1) {
+                        display: none;
+                    }
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                }
+            }
         }
     }
 }
