@@ -366,3 +366,49 @@ header {
         height: 118px;
     }
 }
+
+footer {
+    .container {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .item {
+        width: 25%;
+        h3 {
+            font: 14px 'Bold';
+            color: #303030;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        li {
+            display: block;
+            margin-bottom: 10px;
+            a {
+                position: relative;
+                font: 12px 'Regular';
+                color: #303030;
+                text-transform: capitalize;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    height: 1px;
+                    background: transparent;
+                    transition: all .2s linear 0s;
+                }
+                &:hover {
+                    &:before {
+                        background: #303030;
+                    }
+                }
+            }
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}
