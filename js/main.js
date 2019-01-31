@@ -30,10 +30,8 @@ $(document).ready(function() {
     });
 
     $('.mobile-button').click(function() {
-        if ($('.mobile-button').hasClass('is-active')) {
-            $('.mobile-button').removeClass('is-active');
-        } else {
-            $('.mobile-button').addClass('is-active');
+        if ($('.mobile-button').toggleClass('is-active')) {
+            $('nav').toggleClass('active');
         }
     });
 
